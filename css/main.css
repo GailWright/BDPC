@@ -1,0 +1,73 @@
+/*Table of Contents
+1. Reset
+2. Universal Items
+3. Header
+4. Navigation
+5. Footer
+6.
+*/
+
+/* Featured Color -- #e4bdb8 */
+
+/*This is the reset*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  border: 1px solid black;
+}
+a {
+    color: inherit;
+    display: inline-block;
+}
+a.banner-link:visited, a.banner-link:link{
+  font-style: italic;
+
+}
+
+a:hover {
+     color: #e4bdb8;
+}
+
+/*------Universal Section------*/
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: rgb(60,60,60);
+    }
+header, footer {
+    padding: 2% 5%;
+}
+section {
+  padding: 5vh 5%;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 0.5em;
+}
+h1 {
+    font-size: 4.5rem;
+}
+h2 {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color:  #e4bdb8;
+}
+h3 {
+   font-size: 1.2rem;
+   text-transform: uppercase;
+   color:  #e4bdb8;
+   text-align: center;
+}
+.fa {
+     color:  #e4bdb8;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+  padding: .2%;
+}
