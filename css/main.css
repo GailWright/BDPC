@@ -15,7 +15,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  *border: 1px solid black;*
+    border: 1px solid black;
 }
 a {
     color: inherit;
@@ -28,6 +28,9 @@ a.banner-link:visited, a.banner-link:link{
 
 a:hover {
      color: #B7D1DA;
+}
+a, a:hover {
+    text-decoration: none;
 }
 
 /*------Universal Section------*/
@@ -59,7 +62,7 @@ h2 {
 h3 {
    font-size: 1.2rem;
    text-transform: uppercase;
-   color:  #e4bdb8;
+   color:  #5A7684;
    text-align: center;
 }
 .fa {
@@ -73,3 +76,11 @@ p {
   padding: .2%;
   color: #364652;
 }
+/*-------------Header Section----------*/
+
+.banner {
+    min-height: 70vh;
+    background-image: url("/images/bio-recovery.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
