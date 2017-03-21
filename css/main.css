@@ -7,7 +7,7 @@
 6.
 */
 
-/* Featured Color -- #e4bdb8 */
+/* Featured Color -- #12aef */
 
 /*This is the reset*/
 
@@ -15,7 +15,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  *border: 1px solid black;
+  *border: 1px solid black;*
 }
 a {
     color: inherit;
@@ -27,7 +27,7 @@ a.banner-link:visited, a.banner-link:link{
 }
 
 a:hover {
-     color: #e4bdb8;
+     color: #B7D1DA;
 }
 
 /*------Universal Section------*/
@@ -49,11 +49,12 @@ h1, h2, h3, h4 {
 }
 h1 {
     font-size: 4.5rem;
+    color: #0E0F19;
 }
 h2 {
     font-size: 1.4rem;
     text-transform: uppercase;
-    color:  #e4bdb8;
+    color:  #5A7684;
 }
 h3 {
    font-size: 1.2rem;
@@ -62,7 +63,7 @@ h3 {
    text-align: center;
 }
 .fa {
-     color:  #e4bdb8;
+     color:  #B7D1DA;
 }
 
 p {
@@ -70,4 +71,5 @@ p {
   line-height: 1.5;
   margin-bottom: 0.5rem;
   padding: .2%;
+  color: #364652;
 }
