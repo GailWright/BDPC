@@ -88,7 +88,7 @@ ul li {
 .banner {
     min-height: 60vh;
     background-image: url("/images/bio-recovery.jpg");
-    background-size: cover;
+    backgr ound-size: cover;
     background-position: center;
     background-attachment: fixed;
   }
@@ -105,4 +105,22 @@ ul li {
   color: #3a60d1;
   display: block;
   padding: 0.5%;
+}
+/*This is the contact section*/
+.form h4 {
+  line-height: 2;
+}
+
+/* These are to style the placeholder in the form for each browser */
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-family: 'Lato', sans-serif;
+}
+::-moz-placeholder { /* Firefox 19+ */
+    font-family: 'Lato', sans-serif;
+}
+:-ms-input-placeholder { /* IE 10+ */
+    font-family: 'Lato', sans-serif;
+}
+:-moz-placeholder { /* Firefox 18- */
+    font-family: 'Lato', sans-serif;
 }

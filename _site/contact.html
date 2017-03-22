@@ -27,9 +27,9 @@
 
    <header class="top-header">
      <div <class="grid">
-       <div class="col-4_sm-12">
+       <nav>
        <a href="/" class="logo"><img src="images/business_card_logo1.jpg" alt="LOGO"></a>
-       </div>
+       </nav>
         <div class="col-8_small-12">
           <p class="subheading-1">Helping you through your Crisis</p>
           <p class="subheading-2">Biohazard Remediation Specialists</p>
@@ -60,21 +60,50 @@
 
    <!--This is where all my site content goes  } -->
    <body>
-  <section class="grid">
-    <div class="col-7_sm-12">
-      <div class="">
-        <h2>BioRecovery and Domestic Professional Services</h2>
-        <p>24/7 Dispatch Line
-        <a href="=+61400402312">+61400402312</a>
-        </p>
-        <p>
-        To contact us by email, please fill out the following form and someone will be in contact with you.
-        </p>
-        <p>
-        We will reply to email messages within 24 business hours.&nbsp; For fastest response, please call us at <a href="=+61400402312">+61400402312</a> <br> Please do not use this form for employment requests; there is a separate form on our employment page.
-        </p>
+  <section class="form">
+      <div class=class="grid">
+        <div class="col-7_sm-12">
+          <h2>BioRecovery and Domestic Professional Services</h2>
+            <p>24/7 Dispatch Line
+              <a href="=+61400402312">+61400402312</a>
+            </p>
+            <p>
+              To contact us by email, please fill out the following form and someone will be in contact with you.
+            </p>
+            <p>
+              We will reply to email messages within 24 business hours.&nbsp; For fastest response, please call us at <a href="=+61400402312">+61400402312</a> <br> Please do not use this form for employment requests; there is a separate form on our employment page.
+            </p>
+          <form class="form-container" action="https://formspree.io/your@email.com"  method="POST">
+
+          <div class="grid">
+          <div class="col-6">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="First name">
+          </div>
+
+          <div class="col-6">
+            <label for="last-name">Surname </label>
+            <input type="text" name="last-name" id="last-name" placeholder="Last Name">
+          </div>
+
+          <div class="col-12">
+            <label for="email">Email Address </label>
+            <input type="email" name="_replyto" id="email" placeholder="example@gmail.com">
+          </div>
+
+          <div class="col-12">
+                <label for="message-box">How can we help? </label>
+                <textarea name="message" placeholder="Type Your message here"></textarea>
+          </div>
+
+              <!--<textarea name="message" placeholder="type Your message"></textarea>  -->
+
+          <div class="col-12">
+              <input type="submit" value="Send">
+          </div>
+        </div>
       </div>
-    </div>
+    </form>
   </section>
 </body>
 
