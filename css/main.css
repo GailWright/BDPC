@@ -15,11 +15,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
 }
 a {
     color: inherit;
     display: inline-block;
+
 }
 a.banner-link:visited, a.banner-link:link{
   font-style: italic;
@@ -40,23 +41,24 @@ body {
     color: rgb(60,60,60);
     line-height: 1.5;
     }
-header, footer {
+/*header, footer {*/
     padding: 2% 5%;
 }
 section {
-  padding: 5vh 5%;
+  padding: 2vh 2%;
 }
 
 h1, h2, h3, h4 {
     font-family: 'Lato', sans-serif;
     margin-bottom: 0.5em;
+    padding-left: 4%
 }
 h1 {
     font-size: 1.5rem;
     color: #52514f;
 }
 h2 {
-    font-size: 1.4rem;
+    font-size: 1rem;
     text-transform: uppercase;
     color:  #52514f;
 }
@@ -71,33 +73,104 @@ h3 {
 }
 
 p {
-  font-size: 1.1rem;
-  line-height: 1.5;
+  font-size: 1rem;
+  line-height: 1.5em;
   margin-bottom: 0.5rem;
-  padding: 1%;
+  padding: 0 4% ;
   color: #364652;
+
 }
 ul {
   list-style-position: inside;
+  padding-bottom: 5%;
 }
 ul li {
-  line-height: 1.5em;
-}
+  font-size: 1rem;
+  line-height: 1.4em;
+  padding-left: 5%;
+  }
+
+
 /*-------------Header Section----------*/
 
-.banner {
-    min-height: 60vh;
-    background-image: url("/images/bio-recovery.jpg");
-    backgr ound-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-  }
 
-.banner h1 {
+.index .banner {
+     background-image: url("/images/bio-recovery.jpg");
+     min-height: 60vh;
+     background-size: cover;
+     background-position: center;
+     background-attachment: fixed;
+ }
+/*.banner h1 {
   padding: 5%;
   font-size: 2.5rem;
-  text-align: center;
+  text-align: left;
+  }*/
+
+.subheading-1 {
+  color: #3468c7;
+  font-size: 26px;
+  font-style: italic;
+  font-weight: bold;
+  text-align: right;
   }
+
+.subheading-2 {
+  color: black;
+  text-align: right;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight:bold;
+  padding-bottom: 1%;
+}
+
+.subheading-3 {
+  color: #aa2c2c;
+  text-align: right;
+  line-height: 3px;
+  font-size: 30px;
+letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.subheading-4 {
+  color: #aa2c2c;
+  text-align: right;
+  font-size: 20px;
+  font-weight: bold;
+}
+.bg-color {
+  background-color: #d7e1eb;
+  color: white;
+}
+
+.service-container p h2 ul li{
+    padding: 3%;
+     margin: 0 auto;
+  }
+
+}
+header nav, .nav-items {
+  display: flex;
+}
+.logo img {
+  height: auto;
+  width: 25%;
+  padding: 2%;
+}
+nav {
+  justify-content: space-between;
+}
+
+nav a {
+  display: inline-block;
+  padding: 0 5.5em;
+  line-height: 35px;
+  font-size: 1rem;
+}
+.nav-color{
+  background-color: #52514f;
+}
 
 /*---This is the questions section---*/
 .questions a {
