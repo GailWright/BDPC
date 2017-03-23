@@ -20,8 +20,7 @@
 a {
     color: inherit;
     display: inline-block;
-
-}
+  }
 a.banner-link:visited, a.banner-link:link{
   font-style: italic;
 
@@ -50,7 +49,7 @@ section {
 
 h1, h2, h3, h4 {
     font-family: 'Lato', sans-serif;
-    margin-bottom: 0.5em;
+    /*margin-bottom: 0.5em;*/
     padding-left: 4%
 }
 h1 {
@@ -73,7 +72,7 @@ h3 {
 }
 
 p {
-  font-size: 1rem;
+  font-size: 16px;
   line-height: 1.5em;
   margin-bottom: 0.5rem;
   padding: 0 4% ;
@@ -119,6 +118,7 @@ ul li {
   color: black;
   text-align: right;
   font-size: 14px;
+  font-weight: bold;
   text-transform: uppercase;
   font-weight:bold;
   padding-bottom: 1%;
@@ -129,7 +129,7 @@ ul li {
   text-align: right;
   line-height: 3px;
   font-size: 30px;
-letter-spacing: 2px;
+  letter-spacing: 2px;
   font-weight: bold;
 }
 
@@ -155,7 +155,7 @@ header nav, .nav-items {
 }
 .logo img {
   height: auto;
-  width: 25%;
+  width: 50%;
   padding: 2%;
 }
 nav {
@@ -174,10 +174,10 @@ nav a {
 
 /*---This is the questions section---*/
 .questions a {
-  font-size: 1.1rem;
+  font-size: 16px;
   color: #3a60d1;
   display: block;
-  padding: 0.5%;
+  padding: 0 4%;
 }
 /*This is the contact section*/
 .form h4 {
