@@ -3,8 +3,10 @@
 2. Universal Items
 3. Header
 4. Navigation
-5. Footer
-6.
+5. Why BDPC
+6.Services
+7.FAQ's
+8. Footer
 */
 
 /* Featured Color -- #12aef */
@@ -40,17 +42,17 @@ body {
     color: rgb(60,60,60);
     line-height: 1.5;
     }
-/*header, footer {*/
-    padding: 2% 5%;
+header, footer {
+    padding: 2% 2% 1%;
 }
 section {
-  padding: 2vh 2%;
+  padding: 1vh 2% ;
 }
 
 h1, h2, h3, h4 {
     font-family: 'Lato', sans-serif;
     /*margin-bottom: 0.5em;*/
-    padding-left: 4%
+    /*padding-left: 4%*/
 }
 h1 {
     font-size: 1.5rem;
@@ -58,9 +60,10 @@ h1 {
       padding: 1% 3%;
 }
 h2 {
-    font-size: 1rem;
+    font-size: 1.4rem;
     text-transform: uppercase;
     color:  #52514f;
+    padding: 2% 4%;
 }
 h3 {
    font-size: 1.2rem;
@@ -78,7 +81,19 @@ p {
   margin-bottom: 0.5rem;
   padding: 0 4% ;
   color: #364652;
-
+  text-align: justify;
+}
+hr {
+  border: none;
+  border-top: 2px solid #eee;
+  width: 40em;
+  display: block;
+  border-bottom: inherit;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
 }
 ul {
   list-style-position: inside;
@@ -89,24 +104,77 @@ ul li {
   line-height: 1.4em;
   padding-left: 10%;
   }
+  .padding-1{
+    display:inline-block;
+    padding: 1%;
+  }
 
+.form-container {
+    max-width: 1000px;
+    margin: 0 3%;
+    padding: 50px 0;
+  }
+  form label {
+    display: block;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    margin-bottom: 0.5em;
+    color: #364652;
+  }
+  form input, form textarea {
+    width: 100%;
+    display: block;
+    min-height: 40px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 2px solid #364652;
+  }
+  form textarea {
+  height: 150px;
+  }
+
+  input[type="submit"] {
+    background-color:#364652;
+    color: white;
+    text-transform: uppercase;
+    font-weight:bold;
+  }
+
+  .lg-background {
+    background-color: rgb(252,252,252);
+  }
+  .id-q {
+    margin-bottom:2%;
+  }
+  p a, .top {
+    margin-bottom: 3%;
+    }
+
+  .top a {
+    text-decoration: underline;
+    text-align: left;
+  }
 
 /*-------------Header Section----------*/
 
 
 .index .banner {
-     background-image: url("/images/bio-recovery.jpg");
-     min-height: 60vh;
+     background-image: url("/images/sad.jpg");
+     min-height: 50vh;
      background-size: cover;
      background-position: center;
      background-attachment: fixed;
  }
-/*.banner h1 {
-  padding: 5%;
+.banner h1 {
+  padding: 1%;
   font-size: 2.5rem;
   text-align: left;
-  }*/
-
+  }
+.sub-headings{
+  /*padding-top: 3%;*/
+  margin: auto;
+  box-sizing: border-box;
+}
 .subheading-1 {
   color: #3468c7;
   font-size: 26px;
@@ -122,33 +190,37 @@ ul li {
   font-weight: bold;
   text-transform: uppercase;
   font-weight:bold;
-  padding-bottom: 1%;
+  margin-bottom: 5%
+  /*padding-bottom: 1%;*/
 }
 
 .subheading-3 {
   color: #aa2c2c;
   text-align: right;
-  line-height: 3px;
+  line-height: 10px;
   font-size: 30px;
   letter-spacing: 2px;
   font-weight: bold;
+  margin-bottom: 2%;
 }
 
 .subheading-4 {
   color: #aa2c2c;
   text-align: right;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: bold;
 }
 .bg-color {
-  background-color: #d7e1eb;
+  /*background-color: #d7e1eb;*/
   color: white;
 }
 
-.service-container p h2 ul li{
+
+
+/*.service-container p h2 ul li{
     padding: 3%;
      margin: 0 auto;
-  }
+  */
 
 }
 header nav, .nav-items {
@@ -170,6 +242,32 @@ nav {
   display: block;
   padding: 0 4%;
 }
+
+/*This is the contact section*/
+.form h4 {
+  line-height: 2;
+}
+
+
+/*---- is the footer section----*/
+
+.background {
+    background-color: grey;
+    color: white;
+}
+
+footer .fa {
+  margin-right: 1rem;
+}
+
+
+
+
+
+
+
+
+
 /*--- nav section items */
 nav a {
   display: inline-block;
@@ -184,11 +282,11 @@ nav a {
 .nav-button {
   display: none; /* hide button on desktops */
 
-  /*background-color: transparent;
+  background-color: transparent;
   border: none;
   color: #000;
   font-size: 30px;
-}*/
+}
 
 /*This section is for mobile site */
 @media (max-width: 50em) {
@@ -216,10 +314,7 @@ nav a {
 
 
 
-/*This is the contact section*/
-.form h4 {
-  line-height: 2;
-}
+
 
 /* These are to style the placeholder in the form for each browser */
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
