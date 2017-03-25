@@ -17,7 +17,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /*border: 1px solid black;*/
+    border: 1px solid black;
 }
 a {
     color: inherit;
@@ -42,11 +42,11 @@ body {
     color: rgb(60,60,60);
     line-height: 1.5;
     }
-header, footer {
+/*header, footer {
     padding: 2% 2% 1%;
-}
+}*/
 section {
-  padding: 1vh 2% ;
+  padding: 5vh 5% ;
 }
 
 h1, h2, h3, h4 {
@@ -61,7 +61,7 @@ h1 {
 }
 h2 {
     font-size: 1.4rem;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     color:  #52514f;
     padding: 2% 4%;
 }
@@ -104,9 +104,9 @@ ul li {
   line-height: 1.4em;
   padding-left: 10%;
   }
-  .padding-1{
-    display:inline-block;
-    padding: 1%;
+.padding-1{
+  display:inline-block;
+  padding: 1%;
   }
 
 .form-container {
@@ -147,7 +147,7 @@ ul li {
     margin-bottom:2%;
   }
   p a, .top {
-    margin-bottom: 3%;
+    margin: 3%;
     }
 
   .top a {
@@ -156,22 +156,27 @@ ul li {
   }
 
 /*-------------Header Section----------*/
+header a {
+  text-align: center;
+}
+.banner {
+  padding: 0%;
+  margin: 0%;
+}
 
-
-.index .banner {
-     background-image: url("/images/sad.jpg");
+.index .banner h1 {
+     background-image: url("/images/danger.jpg");
      min-height: 50vh;
      background-size: cover;
      background-position: center;
      background-attachment: fixed;
- }
-.banner h1 {
-  padding: 1%;
-  font-size: 2.5rem;
-  text-align: left;
-  }
-.sub-headings{
-  /*padding-top: 3%;*/
+     color: white;
+     text-align: center;
+     text-shadow: 4px 4px black;
+     font-size: 4.5em;
+}
+.sub-headings {
+  padding-top: 3%;
   margin: auto;
   box-sizing: border-box;
 }
@@ -190,7 +195,7 @@ ul li {
   font-weight: bold;
   text-transform: uppercase;
   font-weight:bold;
-  margin-bottom: 5%
+  margin-bottom: 5% 5%
   /*padding-bottom: 1%;*/
 }
 
@@ -211,7 +216,7 @@ ul li {
   font-weight: bold;
 }
 .bg-color {
-  /*background-color: #d7e1eb;*/
+  background-color:#eeeef0;
   color: white;
 }
 
@@ -259,14 +264,6 @@ nav {
 footer .fa {
   margin-right: 1rem;
 }
-
-
-
-
-
-
-
-
 
 /*--- nav section items */
 nav a {
