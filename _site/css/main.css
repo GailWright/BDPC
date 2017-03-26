@@ -17,7 +17,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /*border: 1px solid black;*/
+  border: 1px solid black;
 }
 a {
     color: inherit;
@@ -106,6 +106,7 @@ ul li {
 .sidebar {
   float: right;
   margin-right: 2vw;
+  padding: 2% 0;
 }
 .sidebar h2{
   background-color: #f0f0f0;
@@ -114,7 +115,8 @@ ul li {
 .sidebar li {
   color: blue;
   background-color: #f0f0f0;
-  padding: 20px;
+  padding: 10px;
+  border: 10%;
 
 }
 .padding-1{
@@ -162,7 +164,9 @@ ul li {
   p a, .top {
     margin: 3%;
     }
-
+.col{
+  padding-top: 2vh;
+}
   .top a {
     text-decoration: underline;
     text-align: left;
@@ -231,6 +235,7 @@ header a {
 .bg-color {
   background-color:#eeeef0;
   color: white;
+  padding-top: 2%;
 }
 
 
@@ -252,7 +257,6 @@ header nav /*,.nav-items {*/
 nav {
   justify-content: space-between;
 }
-
 /*---This is the questions section---*/
 .questions a {
   font-size: 16px;
