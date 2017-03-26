@@ -105,6 +105,7 @@ ul li {
 
 .sidebar {
   float: right;
+  margin-right: 2vw;
 }
 .sidebar h2{
   background-color: #f0f0f0;
