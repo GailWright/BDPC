@@ -316,6 +316,9 @@ nav a {
   .nav-button {
     display: block; /* show button on mobile */
     padding: 1em;
+    position: fixed;
+    top: 10px;
+    right: 10px
 }
   header .nav-items {
     display: none; /* hide menu on mobile */
