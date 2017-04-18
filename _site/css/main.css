@@ -17,7 +17,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  /*border: 1px solid black;*/
+border: 1px solid black;
 }
 a {
     color: inherit;
@@ -254,7 +254,7 @@ header nav /*,.nav-items {*/
 }
 .logo img {
   height: auto;
-  /*width: 50%;*/
+/*width: 50%;*/
   padding: 2%;
 }
 nav {
@@ -319,7 +319,7 @@ nav a {
     position: fixed;
     top: 10px;
     right: 10px
-}
+}s
   header .nav-items {
     display: none; /* hide menu on mobile */
   }
